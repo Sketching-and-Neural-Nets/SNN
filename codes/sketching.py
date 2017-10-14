@@ -39,7 +39,7 @@ if __name__ == '__main__':
 	for h in range(0,20):
 		a=randint(1,p-1)
 		b=randint(1,p-1)
-		print(a,b)
+		#print(a,b)
 		result.append(sketch(x,a,b))
 	for i in range(0,m):
 		print("%s"%(result[0][i]))
